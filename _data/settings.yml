@@ -1,0 +1,51 @@
+#-------------------------------
+# General Site Settings
+
+title: Variant Theme
+description: Soon to be a dope-ass HTML theme!
+email: jaredt.hutch@gmail.com
+
+
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Whoa look this is cool!' # Optimized description length is between 150 - 160 characters
+  keywords: 'seo, web design, html theme, awesome shit' # seperate each keyword/ keyphrase with a coma','
+  author: 'Jared Hutchinson'
+  rel-author: 'http://variantdigital.com'
+  rel-publisher: 'http://variantdigital.com'
+  robots: 'index, follow' # allows page crawlers to read through the page and follow all links for more info visit: http://www.robotstxt.org/meta.html
+
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+
+
+#-------------------------------
+# Main Navigation Links (Max number of items is set to 8) More info in documentation
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
+- {name: Contact, url: '#contact'}
+- {name: Contact, url: '#contact'}
+- {name: Contact, url: '#contact'}
+- {name: Contact, url: '#contact'}
+- {name: Contact, url: '#contact'}
+- {name: Contact, url: '#contact'}
+- {name: Contact, url: '#contact'}

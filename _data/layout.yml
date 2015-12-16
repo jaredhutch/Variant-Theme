@@ -1,0 +1,8 @@
+#-------------------------------
+# Typography Settings
+
+# NOTE: Font options (Open Sans / Lato / Montserrat / Raleway / Sounrce Sans Pro) to add more fonts see documentation
+# To see examples of available fonts visit http://variantdigital.com/font-options
+
+title-font: 'Raleway'
+body-font: 'Open Sans'

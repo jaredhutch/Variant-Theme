@@ -1,0 +1,9 @@
+<nav>
+
+    <ul>
+      {% for item in site.data.settings.menu limit:8 %}
+        <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  
+</nav>

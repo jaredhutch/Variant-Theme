@@ -1,0 +1,21 @@
+<head>
+  <meta charset="UTF-8">
+  <title>{{ site.data.settings.title }}</title>
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Meta tags for SEO -->
+  <meta name="description" content="{{ site.data.settings.seo.description }}">
+  <meta name="Keywords" content="{{ site.data.settings.seo.keywords }}">
+  <meta name="author" content="{{ site.data.settings.seo.author }}">
+  <meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
+  <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
+  <meta name="robots" content="{{ site.data.settings.seo.robots }}">
+    
+  <link rel="stylesheet" href="assets/css/all.css">
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  {% include fonts.html %}
+  
+  
+  {% include analytics.html %}
+</head>
